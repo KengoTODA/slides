@@ -1,0 +1,4 @@
+.deck-container td, .deck-container th {
+  border: 1px solid gray;
+  padding: 1ex;
+}
