@@ -105,7 +105,7 @@ between browser and server
 
 # Case #2
 
-## Dynamic load
+## Dynamic switching
 
 judge module to load on demand
 
@@ -114,8 +114,8 @@ judge module to load on demand
     <tr><th>device \ page</th><th>sign in</th><th>portal</th><th>common</th></tr>
   </thead>
   <tbody>
-    <tr><th>PC</th><td>-</td><td>collapsable menu</td><td></td></tr>
-    <tr><th>iPhone</th><td>link to AppStore</td><td>diggable menu</td><td></td></tr>
+    <tr><th>PC only</th><td>-</td><td>collapsable menu</td><td>-</td></tr>
+    <tr><th>iPhone only</th><td>link to AppStore</td><td>diggable menu</td><td>-</td></tr>
     <tr><th>common</th><td>validator plugin</td><td>news board</td><td>framework</td></tr>
   </tbody>
 </table>
