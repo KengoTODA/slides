@@ -4,7 +4,17 @@
 
 # RequireJS
 
-### what we can improve by RequireJS and r.js
+### what we can improve
+### by RequireJS and r.js
+
+!SLIDE left
+
+## Agenda
+
+* Self introduction
+* Motivation
+* What is RequireJS?
+* How to use
 
 !SLIDE left
 
@@ -14,13 +24,13 @@
 
 * Came from the country of 忍者.
 
-
 !SLIDE left
 
 ## Self introduction
 
 * I can use,
     * Java, JavaScript, CoffeeScript
+    * BASIC, COBOL, Fortran, Pascal etc.
     * ObjectWeb ASM, FindBugs, PMD, Jenkins
 
 * https://github.com/eller86/findbugs-slf4j
@@ -42,7 +52,7 @@
 
 ## Solution = RequireJS
 
-<image src="http://requirejs.org/i/logo.png" width="440" height="276">
+<image src="images/requirejs.png" width="440" height="276">
 
 !SLIDE
 
@@ -79,7 +89,7 @@ _data size_ * throughput
 
 !SLIDE
 
-# HOW to use?
+# HOW to use
 
 !SLIDE
 
@@ -87,7 +97,7 @@ _data size_ * throughput
 
 ```javascript
 define([
-    // here you can code dependencies
+    // here you can list dependencies
     'jquery'
   ],
   function($){

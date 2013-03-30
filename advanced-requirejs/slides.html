@@ -30,7 +30,23 @@
       <div class='content'>
         <h1>RequireJS</h1>
         
-        <h3>what we can improve by RequireJS and r.js</h3>
+        <h3>what we can improve</h3>
+        
+        <h3>by RequireJS and r.js</h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='left slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Agenda</h2>
+        
+        <ul>
+        <li>Self introduction</li>
+        <li>Motivation</li>
+        <li>What is RequireJS?</li>
+        <li>How to use</li>
+        </ul>
       </div>
       <div class='spacer bottom'></div>
     </section>
@@ -57,6 +73,7 @@
         
         <ul>
         <li>Java, JavaScript, CoffeeScript</li>
+        <li>BASIC, COBOL, Fortran, Pascal etc.</li>
         <li>ObjectWeb ASM, FindBugs, PMD, Jenkins</li>
         </ul>
         </li>
@@ -95,7 +112,7 @@
       <div class='content'>
         <h2>Solution = RequireJS</h2>
         
-        <p><image src="http://requirejs.org/i/logo.png" width="440" height="276"></p>
+        <p><image src="images/requirejs.png" width="440" height="276"></p>
       </div>
       <div class='spacer bottom'></div>
     </section>
@@ -153,7 +170,7 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <h1>HOW to use?</h1>
+        <h1>HOW to use</h1>
       </div>
       <div class='spacer bottom'></div>
     </section>
@@ -162,7 +179,7 @@
   <div class='content'>
     <h2>like this</h2>
     
-    <p><textarea class='code' display='none' mode='javascript'>define([&#x000A;    // here you can code dependencies&#x000A;    'jquery'&#x000A;  ],&#x000A;  function($){&#x000A;    // here you can use $ as local variable&#x000A;    $('#message').text('Hello, world!');&#x000A;});</textarea>
+    <p><textarea class='code' display='none' mode='javascript'>define([&#x000A;    // here you can list dependencies&#x000A;    'jquery'&#x000A;  ],&#x000A;  function($){&#x000A;    // here you can use $ as local variable&#x000A;    $('#message').text('Hello, world!');&#x000A;});</textarea>
 </p>
     
     <p><textarea class='code' display='none' mode='coffeescript'>define ['event','header/view','header/server'], (event, view, server) ->&#x000A;  view.on 'logout', ->&#x000A;    server.logout()&#x000A;&#x000A;  event.on 'change-tab', (e) ->&#x000A;    view.updateTitle e.activeTab</textarea>
